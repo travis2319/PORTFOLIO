@@ -20,22 +20,17 @@ const page = () => {
       </Badge>
       <div className="flex flex-col gap-3">
         <Heading>
-          Software Engineer And Web <br /> Developer, Based In India.
+          Software Engineer 
         </Heading>
 
         <p className=" font-poppins text-xl w-full text-primary max-sm:text-lg">
-          I am a Full Stack Web Developer from Ramgarh cantt, Jharkhand, India.
-          I love crafting cool web projects and also open-source contribuitions.
-          My biggest achievement lies in my mastery of JavaScript and CSS,
-          ensuring pixel-perfect designs that captivate users. With a keen eye
-          for detail and a commitment to delivery speed, I excel at creating
-          seamless and responsive interfaces that leave a lasting impression.
+        👋 Hi, I'm Travis , a beginner frontend developer who loves designing attractive user interfaces. I'm looking forward to learning more about web development and design.
         </p>
       </div>
       <div className="w-full flex flex-row justify-between max-lg:flex-col ">
         <Aboutfooter />
       </div>
-      <div className="block">
+      {/* <div className="block">
         <h1 className="gap-2 text-3xl font-poppins text-primary font-semibold flex icon_underline relative max-sm:text-2xl">
           {" "}
           <Heart className="h-8 w-8" /> Hobbies
@@ -52,7 +47,7 @@ const page = () => {
             );
           })}
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

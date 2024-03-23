@@ -16,7 +16,7 @@ const rubik = Rubik({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://mdTaquiImam.vercel.app"),
+  metadataBase: new URL("https://github.com/travis2319"),
   title: {
     default: siteConfig.name,
     template: `%s - Software Engineer`,
@@ -25,39 +25,13 @@ export const metadata: Metadata = {
 
   // added new keywords for seo
   keywords: [
-    "md",
-    "taqui",
-    "imam",
-    "Md",
-    "MD",
-    "TAQUI",
-    "Taqui",
-    "Imam",
-    "Imam",
-    "Md Taqui Imam",
-    "md taqui imam",
-    "mdtaqui",
-    "mdtaquiimam",
-    "taqui imam",
-    "Taqui Imam",
-    "Taquiimam",
-    "portfolio",
-    "web developer",
-    "web",
-    "web dev",
-    "developer",
-    "PROGRAMMER ",
-    "programmer ",
-    "MD TAQUI IMAM ",
-    "website",
-    "@Taquiimam",
-    "Taquiimam",
-    "taqui developer",
+    'travis fernandes',
+    'web devloper'
   ],
   authors: [
     {
-      name: "Taqui Imam",
-      url: "https://github.com/taqui-786",
+      name: "Travis Fernandes",
+      url: "https://github.com/travis2319",
     },
   ],
   creator: "Taqui imam",

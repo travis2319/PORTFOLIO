@@ -1,14 +1,13 @@
 import { cn } from "@/lib/utils";
-import { Facebook, Linkedin, Twitter, ExternalLink } from "lucide-react";
+import {  Linkedin, Twitter, ExternalLink } from "lucide-react";
 import { buttonVariants } from "./ui/button";
 import Link from "next/link";
 
 const SocialLinks = () => {
   const links = [
-    { name: "Facebook", link: "https://www.facebook.com/shahina.khatun.1044", icon: <Facebook /> },
-    { name: "Twitter", link: "https://twitter.com/Taquiimam14", icon: <Twitter /> },
-    { name: "Linkedin", link: "https://www.linkedin.com/in/taqui-imam", icon: <Linkedin /> },
-    { name: "External", link: "https://tinyurl.com/MdTaquiImam", icon: <ExternalLink /> },
+    { name: "Twitter", link: "https://twitter.com/Travisf22033396", icon: <Twitter /> },
+    { name: "Linkedin", link: "https://www.linkedin.com/in/travizxfernandez/", icon: <Linkedin /> },
+    // { name: "External", link: "", icon: <ExternalLink /> },
   ];
   return (
     <>

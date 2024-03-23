@@ -31,12 +31,15 @@ const HackerBtn = ({ label }: { label: string }) => {
   useEffect(() => {
     setDisplayText(label);
   }, [label]);
-
+ 
+  
   return (
-    <Button size={'lg'} className='text-base px-5 py-6'       onMouseEnter={startScrambling}
-    >   <Download className="mx-1" />
-        {displayText}
+    
+    <Button size={'lg'} className='text-base px-5 py-6' onMouseEnter={startScrambling} >
+         <Download className="mx-1" />
+         <a href="https://drive.google.com/file/d/1nxaxMNkyzMKqP2sFwfROQyTQP4Is7nTP/view?usp=sharing" >{displayText}</a>
     </Button>
+    
   );
 };
 

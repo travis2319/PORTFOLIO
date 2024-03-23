@@ -14,12 +14,12 @@ function TextRotator() {
         <ul
           className="block text-left font-rubik text-lg sm:text-3xl leading-tight [&_li]:block animate-text-slide"
         >
-          <li className="text-[#2f7df4]">Freelancer</li>
-          <li className="text-[#2f7df4]">Blogger</li>
-          <li className="text-[#2f7df4]">Gamer</li>
+          <li className="text-[#2f7df4]">FREELANCER</li>
+          <li className="text-[#2f7df4]">AR/VR DEVLOPER</li>
+          <li className="text-[#2f7df4]">MERN STACK</li>
           <li className="text-[#2f7df4]">Creator</li>
-          <li className="text-[#2f7df4]">Student</li>
-          <li className="text-[#2f7df4]">Contributer</li>
+          <li className="text-[#2f7df4]">STUDENT</li>
+          <li className="text-[#2f7df4]">CONTRIBUTER</li>
         </ul>
       </span>
     </div>
